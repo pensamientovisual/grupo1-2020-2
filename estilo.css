@@ -1,0 +1,112 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+html, body, html * {
+  font-family: 'Roboto', sans-serif;
+}
+
+.main {
+	margin-top: 15%;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+	color: white;
+	font: 'roboto';
+	font-size: 40px;
+}
+
+.titulo-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.left-box {
+	margin-left: 32px;
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.map-box {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.main img {
+	width: 100%;
+}
+
+.main h2 {
+	text-align: center;
+	width: 80%;
+}
+
+#general h1 {
+	padding: 32px;
+	font-size: 60px;
+	font: 'roboto';
+	color: #FFF;
+}
+
+.button {
+	background-color: black; /* Green */
+	border:2px solid white ;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 30px;
+}
+
+.button:hover {
+	background-color: #424242;
+}
+
+.button2 {
+	background-color: white; /* Green */
+	border:2px solid black ;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 30px;
+}
+
+.button2:hover {
+	background-color: #EEEEEE;
+}
+
+div#general{
+	display: flex;
+	flex-direction: row;
+	margin:auto;
+	align-items: center;
+}
+
+div#lista{
+  position: absolute;
+	top : 800px;
+  left: 50px;
+  font-family: "Lato";
+  font-size: 20px;
+	width:900px;
+	height:565px;
+	color: #000;
+
+}
+
+#mapa {
+	height: 100%;
+	width: 100%;
+}
+
+#boton_cambio_color {
+	position: absolute;
+	top: 600px;
+	left: 5px;
+}
