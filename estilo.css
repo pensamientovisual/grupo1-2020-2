@@ -13,6 +13,12 @@ html, body, html * {
 	font-size: 40px;
 }
 
+.pagina3 {
+	text-align: center;
+	width: 100%;
+	font: 'roboto';
+}
+
 .titulo-box {
 	display: flex;
 	flex-direction: column;
@@ -31,6 +37,13 @@ html, body, html * {
 .map-box {
 	width: 60%;
 	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.a-box {
+	margin-top: 54px;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
@@ -44,11 +57,55 @@ html, body, html * {
 	width: 80%;
 }
 
+.seleccion {
+	font-size: 36px;
+	background-color: black;
+	color: white;
+	font: 'roboto';
+	font-weight: bold;
+	margin-bottom: 48px;
+}
+
+.opcion {
+	font-size: 40px;
+}
+
 #general h1 {
 	padding: 32px;
 	font-size: 60px;
 	font: 'roboto';
 	color: #FFF;
+}
+
+.div-row {
+	padding-left: 20%;
+	padding-right: 20%;
+	display: flex;
+	flex-direction: row;
+}
+
+.button-division {
+	height: 100px;
+	width: 100%;
+	background-color: black; /* Green */
+	border:2px solid white ;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.button-container {
+	padding-left: 2.5%;
+	width: 45%;
+	height: 15%;
+	padding-right: 2.5%;
+}
+
+.pad-left {
+	padding-left: 10%;
 }
 
 .button {
@@ -63,6 +120,10 @@ html, body, html * {
 }
 
 .button:hover {
+	background-color: #424242;
+}
+
+.button-division:hover {
 	background-color: #424242;
 }
 
@@ -109,4 +170,9 @@ div#lista{
 	position: absolute;
 	top: 600px;
 	left: 5px;
+}
+.imga {
+    width: auto;
+    height: 200px;
+    margin: 4px;
 }

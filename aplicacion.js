@@ -37,4 +37,21 @@ $(document).ready(function(){
     previousClicked = this;
   })
 
+  $('#select1').change(function(){
+    var img = $(this).val();
+    if (img !== "Comuna...") {
+      $("#info1").attr("src", 'info/' + $(this).val() + '.jpeg');
+    } else {
+      $("#info1").attr("src", 'info/base.jpeg');
+    }
+  })
+
+  $('#select2').change(function(){
+    var img = $(this).val();
+    if (img !== "Comuna...") {
+      $("#info2").attr("src", 'info/' + $(this).val() + '.jpeg');
+    } else {
+      $("#info2").attr("src", 'info/base.jpeg');
+    }
+  })
 });
